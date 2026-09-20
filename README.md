@@ -135,14 +135,25 @@ The project generates:
 * Active-subcarrier analysis
 * MATLAB result files
 * Python-processed result files
+  
+📈 Performance Results
 
-Final Step 19.8 figures:
+### BER vs SNR
 
-```text
-Figures/
-├── step19_8_BER_comparison.png
-└── step19_8_EVM_comparison.png
-```
+The BER performance was evaluated from 0 dB to 20 dB SNR for three receiver configurations:
+
+- No Equalization
+- Known-Channel ZF
+- Pilot-LS-ZF
+
+![BER Comparison](Figures/step19_8_BER_comparison.png)
+
+### EVM vs SNR
+
+EVM was also analyzed to evaluate the quality of the received QPSK symbols after OFDM transmission through the multipath channel.
+
+![EVM Comparison](Figures/step19_8_EVM_comparison.png)
+
 
 🐍 MATLAB + Python Workflow
 
