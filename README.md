@@ -113,13 +113,49 @@ Known pilot subcarriers are used to estimate the channel using Least Squares (LS
 
 📊 Final Performance Analysis
 
-At **20 dB SNR**, the final simulation produced:
+The final OFDM simulation was evaluated across SNR values from 0 dB to 20 dB in 2 dB steps.
 
-| Receiver         |      BER |    EVM |
-| ---------------- | -------: | -----: |
-| No Equalization  | 0.000192 | 52.25% |
+### BER Results
+
+| SNR (dB) | No Equalization | Known-Channel ZF | Pilot-LS-ZF |
+|---:|---:|---:|---:|
+| 0 | 0.199663 | 0.165067 | 0.324721 |
+| 2 | 0.160433 | 0.117442 | 0.266067 |
+| 4 | 0.118433 | 0.074433 | 0.183067 |
+| 6 | 0.084442 | 0.040087 | 0.140827 |
+| 8 | 0.056462 | 0.016394 | 0.092000 |
+| 10 | 0.034279 | 0.004183 | 0.027548 |
+| 12 | 0.021058 | 0.000942 | 0.022433 |
+| 14 | 0.010731 | 0.000058 | 0.000865 |
+| 16 | 0.004462 | 0.000000 | 0.000087 |
+| 18 | 0.001067 | 0.000000 | 0.000000 |
+| 20 | 0.000192 | 0.000000 | 0.000000 |
+
+### EVM Results
+
+| SNR (dB) | No Equalization | Known-Channel ZF | Pilot-LS-ZF |
+|---:|---:|---:|---:|
+| 0 | 105.00% | 111.10% | 702.10% |
+| 2 | 88.94% | 87.84% | 213.39% |
+| 4 | 77.18% | 69.92% | 142.97% |
+| 6 | 68.95% | 55.96% | 151.04% |
+| 8 | 62.89% | 44.24% | 111.83% |
+| 10 | 58.92% | 35.01% | 53.01% |
+| 12 | 56.44% | 27.95% | 44.45% |
+| 14 | 54.55% | 22.16% | 33.79% |
+| 16 | 53.37% | 17.60% | 24.98% |
+| 18 | 52.72% | 13.99% | 23.69% |
+| 20 | 52.25% | 11.05% | 18.55% |
+
+### 20 dB Summary
+
+| Receiver Configuration | BER | EVM |
+|---|---:|---:|
+| No Equalization | 0.000192 | 52.25% |
 | Known-Channel ZF | 0.000000 | 11.05% |
-| Pilot-LS-ZF      | 0.000000 | 18.55% |
+| Pilot-LS-ZF | 0.000000 | 18.55% |
+
+> **Note:** These are simulation results for the configured OFDM system and channel model. They are not 3GPP 5G NR conformance measurements.
 
 The results demonstrate how channel compensation and equalization affect the recovered OFDM signal under the simulated multipath channel.
 
@@ -153,6 +189,7 @@ The BER performance was evaluated from 0 dB to 20 dB SNR for three receiver conf
 EVM was also analyzed to evaluate the quality of the received QPSK symbols after OFDM transmission through the multipath channel.
 
 ![EVM Comparison](Figures/step19_8_EVM_comparison.png)
+
 
 
 🐍 MATLAB + Python Workflow
