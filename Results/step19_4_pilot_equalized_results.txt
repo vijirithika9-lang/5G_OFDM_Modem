@@ -1,0 +1,32 @@
+
+============================================
+ STEP 19.4: PILOT-BASED CHANNEL ESTIMATION
+============================================
+
+===== SYSTEM CONFIGURATION =====
+FFT Size                  : 64
+Cyclic Prefix             : 16 samples
+Total Subcarriers         : 64
+Active Subcarriers        : 52
+Modulation                : QPSK
+OFDM Symbols              : 1000
+Test SNR                  : 20 dB
+
+===== CHANNEL ESTIMATION =====
+Estimation Method         : LS Pilot-Based
+Channel RMSE              : 0.096106
+
+===== ZF EQUALIZATION =====
+Equalizer                 : Zero-Forcing
+Channel Used              : Pilot-Based Estimate
+
+===== BER RESULT =====
+Bit Errors                : 0
+Total Bits                : 104000
+BER                       : 0.00000000
+
+Channel estimation graph generated successfully.
+Equalized constellation graph generated successfully.
+
+STEP 19.4 completed successfully.
+>> 

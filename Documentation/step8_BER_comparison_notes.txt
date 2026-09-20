@@ -1,0 +1,39 @@
+STEP 8 – BER COMPARISON BEFORE AND AFTER EQUALIZATION
+
+Objective:
+To compare the BER performance of the OFDM system before and
+after Zero-Forcing (ZF) equalization.
+
+Step 6:
+OFDM system with multipath channel and AWGN without equalization.
+
+Step 7:
+OFDM system with multipath channel, AWGN and ZF equalization
+using the known channel frequency response.
+
+SNR Range:
+0 to 20 dB
+
+Observation:
+The BER decreases as SNR increases.
+
+The system with ZF equalization provides significantly lower BER
+than the system without equalization for the simulated multipath
+channel.
+
+Example:
+At 14 dB SNR:
+Without equalization BER = 0.016485
+With ZF equalization BER = 0.000450
+
+At 20 dB SNR:
+Without equalization BER = 0.000900
+With ZF equalization BER = 0.000000
+
+Conclusion:
+Channel equalization effectively compensates for the frequency
+selective distortion introduced by the multipath channel.
+
+Important Note:
+Step 7 uses the known channel response. It is not yet a true
+pilot-based channel estimation system.

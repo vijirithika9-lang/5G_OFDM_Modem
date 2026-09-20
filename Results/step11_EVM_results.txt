@@ -1,0 +1,44 @@
+
+===== STEP 11.1: EVM ANALYSIS SETUP =====
+Number of QPSK symbols = 10000
+Test SNR = 20 dB
+Ideal QPSK constellation points:
+   0.7071 + 0.7071i
+  -0.7071 + 0.7071i
+   0.7071 - 0.7071i
+  -0.7071 - 0.7071i
+
+
+===== STEP 11.2: EVM RESULT =====
+Test SNR       = 20 dB
+RMS EVM        = 0.099941
+EVM Percentage = 9.99 %
+
+===== STEP 11.3: EVM VS SNR =====
+SNR =  0 dB   EVM = 99.51 %
+SNR =  2 dB   EVM = 79.91 %
+SNR =  4 dB   EVM = 63.05 %
+SNR =  6 dB   EVM = 49.84 %
+SNR =  8 dB   EVM = 39.98 %
+SNR = 10 dB   EVM = 31.67 %
+SNR = 12 dB   EVM = 24.91 %
+SNR = 14 dB   EVM = 19.92 %
+SNR = 16 dB   EVM = 15.81 %
+SNR = 18 dB   EVM = 12.62 %
+SNR = 20 dB   EVM = 10.03 %
+
+===== STEP 11.4: EVM RESULTS =====
+SNR (dB)        EVM (%)
+-----------------------
+ 0              99.5051
+ 2              79.9136
+ 4              63.0472
+ 6              49.8376
+ 8              39.9777
+10              31.6732
+12              24.9080
+14              19.9224
+16              15.8098
+18              12.6202
+20              10.0321
+>> 

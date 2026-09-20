@@ -1,0 +1,4 @@
+===== STEP 4: OFDM RECEIVER =====
+Number of transmitted bits : 99968
+Number of bit errors       : 0
+BER                        : 0.0000000000

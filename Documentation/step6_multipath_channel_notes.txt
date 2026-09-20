@@ -1,0 +1,25 @@
+STEP 6 - OFDM OVER MULTIPATH FADING CHANNEL
+
+Objective:
+To evaluate the performance of the OFDM communication system
+when the transmitted signal experiences multipath propagation.
+
+Channel Configuration:
+Path delays: 0, 2 and 4 samples
+Path gains: 1.00, 0.50 and 0.25
+
+Process:
+1. QPSK symbols are generated from random binary data.
+2. The QPSK symbols are converted into OFDM symbols using IFFT.
+3. A cyclic prefix is added.
+4. The transmitted signal is passed through a multipath channel.
+5. AWGN noise is added at different SNR levels.
+6. The cyclic prefix is removed at the receiver.
+7. FFT is applied to recover the frequency-domain symbols.
+8. QPSK demodulation is performed.
+9. BER is calculated for different SNR values.
+
+Result:
+The OFDM system was successfully tested under a multipath
+channel with AWGN noise. The channel impulse response and
+BER performance were obtained.

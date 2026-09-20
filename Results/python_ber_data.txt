@@ -1,0 +1,15 @@
+======================================================================
+PYTHON RESULT ANALYSIS COMPLETED
+======================================================================
+>> pythonFile = "/MATLAB Drive/5G_OFDM_Modem/Python/plot_ber.py";
+code = fileread(pythonFile);
+pyrun("exec(code)", code=code);
+
+============================================================
+BER DATA PREPARATION COMPLETED
+============================================================
+SNR points processed : 11
+
+Output file:
+/MATLAB Drive/5G_OFDM_Modem/Results/python_ber_data.txt
+============================================================

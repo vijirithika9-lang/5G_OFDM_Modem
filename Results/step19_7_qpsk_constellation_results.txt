@@ -1,0 +1,22 @@
+
+============================================
+ STEP 19.7: QPSK CONSTELLATION COMPARISON
+============================================
+
+Constellation comparison generated successfully.
+
+============================================
+ STEP 19.7 SUMMARY
+============================================
+FFT Size             : 64
+Active Subcarriers   : 52
+Modulation           : QPSK
+Test SNR             : 20 dB
+Channel              : Multipath + AWGN
+
+No Equalization EVM  : 52.2147 %
+Known ZF EVM         : 11.1020 %
+Pilot LS-ZF EVM      : 13.8493 %
+
+STEP 19.7 completed successfully.
+>> 

@@ -1,0 +1,21 @@
+STEP 3 - OFDM TRANSMITTER
+
+Objective:
+To generate an OFDM transmitted signal using QPSK modulation,
+IFFT and Cyclic Prefix.
+
+Parameters:
+Number of subcarriers (NFFT): 64
+Cyclic Prefix length: 16 samples
+
+Process:
+1. Random binary data is generated.
+2. The binary data is converted into QPSK symbols.
+3. QPSK symbols are arranged into parallel OFDM subcarriers.
+4. IFFT converts the frequency-domain symbols into a time-domain OFDM signal.
+5. A cyclic prefix is added to each OFDM symbol.
+6. The parallel OFDM symbols are converted into a serial transmitted signal.
+
+Result:
+The OFDM transmitter successfully generated the time-domain
+OFDM signal and its frequency spectrum.

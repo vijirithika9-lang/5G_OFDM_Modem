@@ -1,0 +1,21 @@
+STEP 4 - OFDM RECEIVER
+
+Objective:
+To recover the transmitted QPSK data from the OFDM signal.
+
+Receiver Process:
+1. The received serial OFDM signal is divided into individual OFDM symbols.
+2. The cyclic prefix is removed.
+3. FFT converts the time-domain OFDM signal back to the frequency domain.
+4. The recovered QPSK symbols are extracted.
+5. QPSK demodulation converts the symbols back into binary data.
+6. The recovered bits are compared with the transmitted bits.
+7. BER is calculated.
+
+Channel:
+An ideal channel was used in Step 4 without noise or multipath effects.
+
+Result:
+The transmitted data was successfully recovered at the receiver.
+The BER was approximately zero under the ideal channel condition.
+The received QPSK constellation was also successfully obtained.

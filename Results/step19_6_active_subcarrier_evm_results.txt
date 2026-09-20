@@ -1,0 +1,30 @@
+
+============================================
+ STEP 19.6: ACTIVE-SUBCARRIER EVM ANALYSIS
+============================================
+SNR =  0 dB   No-EQ EVM = 105.2611 %   Known-ZF EVM = 111.1714 %   Pilot-LS-ZF EVM = 172.2834 %
+SNR =  2 dB   No-EQ EVM = 89.0903 %   Known-ZF EVM = 88.1993 %   Pilot-LS-ZF EVM = 187.0367 %
+SNR =  4 dB   No-EQ EVM = 77.4614 %   Known-ZF EVM = 70.1404 %   Pilot-LS-ZF EVM = 211.8515 %
+SNR =  6 dB   No-EQ EVM = 68.9734 %   Known-ZF EVM = 55.7715 %   Pilot-LS-ZF EVM = 108.2671 %
+SNR =  8 dB   No-EQ EVM = 63.0054 %   Known-ZF EVM = 44.2821 %   Pilot-LS-ZF EVM = 172.3388 %
+SNR = 10 dB   No-EQ EVM = 59.0631 %   Known-ZF EVM = 35.0693 %   Pilot-LS-ZF EVM = 53.2042 %
+SNR = 12 dB   No-EQ EVM = 56.4079 %   Known-ZF EVM = 28.0164 %   Pilot-LS-ZF EVM = 50.0941 %
+SNR = 14 dB   No-EQ EVM = 54.5811 %   Known-ZF EVM = 22.1665 %   Pilot-LS-ZF EVM = 33.0049 %
+SNR = 16 dB   No-EQ EVM = 53.4329 %   Known-ZF EVM = 17.6616 %   Pilot-LS-ZF EVM = 25.3773 %
+SNR = 18 dB   No-EQ EVM = 52.6979 %   Known-ZF EVM = 13.9540 %   Pilot-LS-ZF EVM = 20.5825 %
+SNR = 20 dB   No-EQ EVM = 52.2307 %   Known-ZF EVM = 11.1433 %   Pilot-LS-ZF EVM = 15.7252 %
+
+EVM comparison graph generated successfully.
+
+============================================
+ STEP 19.6 SUMMARY
+============================================
+FFT Size             : 64
+Active Subcarriers   : 52
+Modulation           : QPSK
+Channel              : Multipath + AWGN
+Metrics              : EVM
+Systems Compared     : No-EQ / Known-ZF / Pilot-LS-ZF
+
+STEP 19.6 completed successfully.
+>> 

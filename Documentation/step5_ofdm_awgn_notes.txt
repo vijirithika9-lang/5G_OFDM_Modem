@@ -1,0 +1,25 @@
+STEP 5 - OFDM BER PERFORMANCE OVER AWGN CHANNEL
+
+Objective:
+To evaluate the BER performance of the complete OFDM system
+under different AWGN channel conditions.
+
+Process:
+1. Random binary data is generated.
+2. The data is QPSK modulated.
+3. QPSK symbols are arranged into OFDM symbols.
+4. IFFT converts the symbols into the time domain.
+5. A cyclic prefix is added.
+6. AWGN noise is introduced at different SNR levels.
+7. The cyclic prefix is removed at the receiver.
+8. FFT converts the received signal back to the frequency domain.
+9. QPSK demodulation recovers the transmitted bits.
+10. BER is calculated for each SNR value.
+
+SNR Range:
+0 dB to 20 dB with a 2 dB step.
+
+Result:
+The BER decreases as the SNR increases.
+This demonstrates the effect of AWGN noise on the
+performance of the OFDM communication system.

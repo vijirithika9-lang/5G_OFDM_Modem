@@ -1,0 +1,29 @@
+
+============================================
+ STEP 19.5: 3-SYSTEM BER COMPARISON
+============================================
+SNR =  0 dB   No-EQ = 0.20122115   Known-ZF = 0.16514423   Pilot-LS-ZF = 0.28683654
+SNR =  2 dB   No-EQ = 0.16010577   Known-ZF = 0.11848077   Pilot-LS-ZF = 0.25093269
+SNR =  4 dB   No-EQ = 0.11747115   Known-ZF = 0.07245192   Pilot-LS-ZF = 0.17935577
+SNR =  6 dB   No-EQ = 0.08509615   Known-ZF = 0.04048077   Pilot-LS-ZF = 0.09083654
+SNR =  8 dB   No-EQ = 0.05522115   Known-ZF = 0.01591346   Pilot-LS-ZF = 0.03118269
+SNR = 10 dB   No-EQ = 0.03572115   Known-ZF = 0.00465385   Pilot-LS-ZF = 0.02303846
+SNR = 12 dB   No-EQ = 0.02004808   Known-ZF = 0.00062500   Pilot-LS-ZF = 0.00335577
+SNR = 14 dB   No-EQ = 0.01030769   Known-ZF = 0.00003846   Pilot-LS-ZF = 0.00081731
+SNR = 16 dB   No-EQ = 0.00414423   Known-ZF = 0.00000962   Pilot-LS-ZF = 0.00000000
+SNR = 18 dB   No-EQ = 0.00126923   Known-ZF = 0.00000000   Pilot-LS-ZF = 0.00000000
+SNR = 20 dB   No-EQ = 0.00026923   Known-ZF = 0.00000000   Pilot-LS-ZF = 0.00000000
+
+BER comparison graph generated successfully.
+
+============================================
+ STEP 19.5 SUMMARY
+============================================
+FFT Size             : 64
+Active Subcarriers   : 52
+Modulation           : QPSK
+Channel              : Multipath + AWGN
+Equalization Methods : None / Known-ZF / Pilot-LS-ZF
+
+STEP 19.5 completed successfully.
+>> 

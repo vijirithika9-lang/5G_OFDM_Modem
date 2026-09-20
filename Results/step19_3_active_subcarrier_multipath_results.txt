@@ -1,0 +1,28 @@
+============================================
+ STEP 19.3: ACTIVE-SUBCARRIER OFDM + MULTIPATH
+============================================
+
+===== SYSTEM CONFIGURATION =====
+FFT Size                  : 64
+Cyclic Prefix             : 16 samples
+Total Subcarriers         : 64
+Active Subcarriers        : 52
+Unused Subcarriers        : 12
+Modulation                : QPSK
+OFDM Symbols              : 1000
+Test SNR                  : 20 dB
+
+===== MULTIPATH CHANNEL =====
+Path Delays               : 0 2 4 samples
+Path Gains                : 1.00 0.50 0.25 
+
+===== BER RESULT =====
+Bit Errors                : 30
+Total Bits                : 104000
+BER                       : 0.00028846
+
+Channel impulse response graph generated successfully.
+Constellation graph generated successfully.
+Received subcarrier spectrum generated successfully.
+
+STEP 19.3 completed successfully.

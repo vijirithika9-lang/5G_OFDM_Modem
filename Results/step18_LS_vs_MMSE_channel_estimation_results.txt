@@ -1,0 +1,63 @@
+
+============================================
+       STEP 18: LS vs MMSE CHANNEL ESTIMATION
+============================================
+FFT Size              : 64
+Cyclic Prefix         : 16 samples
+Modulation            : QPSK
+Test SNR              : 10 dB
+
+===== CHANNEL ESTIMATION RESULTS =====
+Estimation Method      : LS
+LS RMSE                : 0.321535
+
+Estimation Method      : MMSE
+MMSE RMSE              : 0.303367
+
+Channel estimation comparison graph generated successfully.
+
+===== STEP 18.2: LS vs MMSE RMSE vs SNR =====
+SNR =  0 dB   LS RMSE = 1.072616   MMSE RMSE = 0.796687
+SNR =  2 dB   LS RMSE = 0.964609   MMSE RMSE = 0.703729
+SNR =  4 dB   LS RMSE = 0.690357   MMSE RMSE = 0.579985
+SNR =  6 dB   LS RMSE = 0.530376   MMSE RMSE = 0.475800
+SNR =  8 dB   LS RMSE = 0.478624   MMSE RMSE = 0.413608
+SNR = 10 dB   LS RMSE = 0.360001   MMSE RMSE = 0.331334
+SNR = 12 dB   LS RMSE = 0.296330   MMSE RMSE = 0.289215
+SNR = 14 dB   LS RMSE = 0.216290   MMSE RMSE = 0.212836
+SNR = 16 dB   LS RMSE = 0.167891   MMSE RMSE = 0.164379
+SNR = 18 dB   LS RMSE = 0.153443   MMSE RMSE = 0.148974
+SNR = 20 dB   LS RMSE = 0.117404   MMSE RMSE = 0.115301
+
+LS vs MMSE RMSE graph generated successfully.
+
+===== STEP 18.3: LS-ZF vs MMSE-ESTIMATED-CHANNEL ZF =====
+SNR =  0 dB   LS-ZF BER = 0.31414844   MMSE-Estimate-ZF BER = 0.31414844
+SNR =  2 dB   LS-ZF BER = 0.23380469   MMSE-Estimate-ZF BER = 0.23380469
+SNR =  4 dB   LS-ZF BER = 0.16067187   MMSE-Estimate-ZF BER = 0.16067187
+SNR =  6 dB   LS-ZF BER = 0.11746875   MMSE-Estimate-ZF BER = 0.11746875
+SNR =  8 dB   LS-ZF BER = 0.06864062   MMSE-Estimate-ZF BER = 0.06864062
+SNR = 10 dB   LS-ZF BER = 0.03686719   MMSE-Estimate-ZF BER = 0.03686719
+SNR = 12 dB   LS-ZF BER = 0.01789844   MMSE-Estimate-ZF BER = 0.01789844
+SNR = 14 dB   LS-ZF BER = 0.00725000   MMSE-Estimate-ZF BER = 0.00725000
+SNR = 16 dB   LS-ZF BER = 0.00278906   MMSE-Estimate-ZF BER = 0.00278906
+SNR = 18 dB   LS-ZF BER = 0.00023437   MMSE-Estimate-ZF BER = 0.00023437
+SNR = 20 dB   LS-ZF BER = 0.00000000   MMSE-Estimate-ZF BER = 0.00000000
+
+BER comparison graph generated successfully.
+
+===== STEP 18.4: LS vs MMSE EVM =====
+SNR =  0 dB   LS EVM = 184.6105 %   MMSE EVM = 491.2790 %
+SNR =  2 dB   LS EVM = 148.9257 %   MMSE EVM = 282.4952 %
+SNR =  4 dB   LS EVM = 150.3113 %   MMSE EVM = 246.4376 %
+SNR =  6 dB   LS EVM = 238.8381 %   MMSE EVM = 374.9249 %
+SNR =  8 dB   LS EVM = 116.1461 %   MMSE EVM = 148.0442 %
+SNR = 10 dB   LS EVM = 55.6435 %   MMSE EVM = 63.6977 %
+SNR = 12 dB   LS EVM = 55.6955 %   MMSE EVM = 63.6998 %
+SNR = 14 dB   LS EVM = 37.2002 %   MMSE EVM = 39.8893 %
+SNR = 16 dB   LS EVM = 30.7886 %   MMSE EVM = 32.6256 %
+SNR = 18 dB   LS EVM = 21.8785 %   MMSE EVM = 22.1454 %
+SNR = 20 dB   LS EVM = 18.9415 %   MMSE EVM = 19.1891 %
+
+EVM comparison graph generated successfully.
+>> 

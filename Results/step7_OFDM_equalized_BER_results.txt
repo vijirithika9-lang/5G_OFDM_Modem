@@ -1,0 +1,12 @@
+SNR =  0 dB   Bit Errors = 18892   BER = 0.188980
+SNR =  2 dB   Bit Errors = 14132   BER = 0.141365
+SNR =  4 dB   Bit Errors =  9500   BER = 0.095030
+SNR =  6 dB   Bit Errors =  5957   BER = 0.059589
+SNR =  8 dB   Bit Errors =  3108   BER = 0.031090
+SNR = 10 dB   Bit Errors =  1255   BER = 0.012554
+SNR = 12 dB   Bit Errors =   381   BER = 0.003811
+SNR = 14 dB   Bit Errors =    45   BER = 0.000450
+SNR = 16 dB   Bit Errors =     6   BER = 0.000060
+SNR = 18 dB   Bit Errors =     0   BER = 0.000000
+SNR = 20 dB   Bit Errors =     0   BER = 0.000000
+>> 

@@ -1,0 +1,27 @@
+SNR =  0 dB | No-EQ BER = 0.199663, EVM = 105.00% | Known-ZF BER = 0.165067, EVM = 111.10% | Pilot-LS-ZF BER = 0.324721, EVM = 702.10%
+SNR =  2 dB | No-EQ BER = 0.160433, EVM = 88.94% | Known-ZF BER = 0.117442, EVM = 87.84% | Pilot-LS-ZF BER = 0.266067, EVM = 213.39%
+SNR =  4 dB | No-EQ BER = 0.118433, EVM = 77.18% | Known-ZF BER = 0.074433, EVM = 69.92% | Pilot-LS-ZF BER = 0.183067, EVM = 142.97%
+SNR =  6 dB | No-EQ BER = 0.084442, EVM = 68.95% | Known-ZF BER = 0.040087, EVM = 55.96% | Pilot-LS-ZF BER = 0.140827, EVM = 151.04%
+SNR =  8 dB | No-EQ BER = 0.056462, EVM = 62.89% | Known-ZF BER = 0.016394, EVM = 44.24% | Pilot-LS-ZF BER = 0.092000, EVM = 111.83%
+SNR = 10 dB | No-EQ BER = 0.034279, EVM = 58.92% | Known-ZF BER = 0.004183, EVM = 35.01% | Pilot-LS-ZF BER = 0.027548, EVM = 53.01%
+SNR = 12 dB | No-EQ BER = 0.021058, EVM = 56.44% | Known-ZF BER = 0.000942, EVM = 27.95% | Pilot-LS-ZF BER = 0.022433, EVM = 44.45%
+SNR = 14 dB | No-EQ BER = 0.010731, EVM = 54.55% | Known-ZF BER = 0.000058, EVM = 22.16% | Pilot-LS-ZF BER = 0.000865, EVM = 33.79%
+SNR = 16 dB | No-EQ BER = 0.004462, EVM = 53.37% | Known-ZF BER = 0.000000, EVM = 17.60% | Pilot-LS-ZF BER = 0.000087, EVM = 24.98%
+SNR = 18 dB | No-EQ BER = 0.001067, EVM = 52.72% | Known-ZF BER = 0.000000, EVM = 13.99% | Pilot-LS-ZF BER = 0.000000, EVM = 23.69%
+SNR = 20 dB | No-EQ BER = 0.000192, EVM = 52.25% | Known-ZF BER = 0.000000, EVM = 11.05% | Pilot-LS-ZF BER = 0.000000, EVM = 18.55%
+
+=============================================
+       STEP 19.8 COMPLETED
+=============================================
+FFT Size             : 64
+Active Subcarriers   : 52
+Unused Subcarriers   : 12
+Modulation           : QPSK
+OFDM Symbols         : 1000
+Channel              : Multipath + AWGN
+Path Delays          : 0 2 4 samples
+Path Gains           : 1.00 0.50 0.25 
+Metrics              : BER + EVM
+Systems Compared     : No-EQ / Known-ZF / Pilot-LS-ZF
+=============================================
+>> 

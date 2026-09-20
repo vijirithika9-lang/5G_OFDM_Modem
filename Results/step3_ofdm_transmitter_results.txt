@@ -1,0 +1,6 @@
+===== STEP 3: OFDM TRANSMITTER =====
+Number of input bits       : 100000
+Number of subcarriers      : 64
+Cyclic Prefix length       : 16
+Number of OFDM symbols     : 781
+Transmitted OFDM samples   : 62480

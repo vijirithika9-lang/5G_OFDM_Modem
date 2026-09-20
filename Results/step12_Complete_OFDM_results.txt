@@ -1,0 +1,83 @@
+
+===== STEP 12.1: SYSTEM SETUP =====
+FFT Size                 : 64
+Cyclic Prefix Length     : 16
+Number of OFDM Symbols   : 1000
+QPSK Modulation Order    : 4
+Test SNR                 : 20 dB
+Number of Transmitted Bits : 128000
+Multipath Delays         : 0 2 4 samples
+Multipath Gains          : 1.00 0.50 0.25 
+
+===== STEP 12.2: QPSK MODULATION =====
+Total QPSK Symbols       : 64000
+OFDM Symbol Size         : 64 QPSK symbols
+OFDM Symbol Count        : 1000
+
+===== STEP 12.3: OFDM TRANSMITTER =====
+IFFT Output Size        : 64 x 1000
+Cyclic Prefix Length    : 16 samples
+OFDM Symbol Length      : 80 samples
+Total Transmitted Samples : 80000
+
+===== STEP 12.4: CHANNEL =====
+Channel Type            : Multipath + AWGN
+Path Delays             : 0 2 4 samples
+Path Gains              : 1.00 0.50 0.25 
+Channel SNR             : 20 dB
+Received Samples        : 80000
+
+===== STEP 12.5: OFDM RECEIVER =====
+Received OFDM Matrix    : 80 x 1000
+CP Removed              : 16 samples
+FFT Output Size         : 64 x 1000
+
+===== STEP 12.6: ZF EQUALIZATION =====
+Channel estimation      : Known channel reference
+Equalizer                : Zero-Forcing (ZF)
+Equalized Symbols       : 64000
+
+===== STEP 12.7: BER RESULT =====
+Test SNR       = 20 dB
+Bit Errors     = 0
+Total Bits     = 128000
+BER            = 0.00000000
+
+===== STEP 12.8: EVM RESULT =====
+Test SNR       = 20 dB
+RMS EVM        = 0.128790
+EVM Percentage = 12.88 %
+
+===== STEP 12.9: COMPLETE MODEM BER VS SNR =====
+SNR =  0 dB   BER = 0.18937500
+SNR =  2 dB   BER = 0.14060938
+SNR =  4 dB   BER = 0.09690625
+SNR =  6 dB   BER = 0.06023437
+SNR =  8 dB   BER = 0.03134375
+SNR = 10 dB   BER = 0.01317187
+SNR = 12 dB   BER = 0.00355469
+SNR = 14 dB   BER = 0.00044531
+SNR = 16 dB   BER = 0.00004688
+SNR = 18 dB   BER = 0.00000781
+SNR = 20 dB   BER = 0.00000000
+
+============================================
+      COMPLETE 5G OFDM MODEM SUMMARY
+============================================
+FFT Size              : 64
+Cyclic Prefix         : 16 samples
+OFDM Symbols          : 1000
+Modulation            : QPSK
+Channel               : Multipath + AWGN
+Equalizer             : Zero-Forcing (ZF)
+Channel Knowledge     : Known / Ideal Reference
+Test SNR              : 20 dB
+
+20 dB Performance
+Bit Errors            : 0
+BER                   : 0.00000000
+RMS EVM               : 0.128790
+EVM Percentage        : 12.88 %
+
+============================================
+>> 

@@ -1,0 +1,41 @@
+STEP 7 – CHANNEL ESTIMATION AND EQUALIZATION
+
+Project:
+5G OFDM Modem
+
+Objective:
+To reduce the effect of multipath channel distortion using
+channel frequency response and Zero-Forcing equalization.
+
+Parameters:
+FFT Size = 64
+Cyclic Prefix = 16
+SNR Range = 0 to 20 dB
+Channel Delays = [0 2 4]
+Channel Gains = [1 0.5 0.25]
+Modulation = QPSK
+
+Process:
+1. Generate random binary data.
+2. Perform QPSK modulation.
+3. Arrange QPSK symbols into OFDM symbols.
+4. Perform IFFT.
+5. Add cyclic prefix.
+6. Transmit the signal through a multipath channel.
+7. Add AWGN noise.
+8. Remove the cyclic prefix at the receiver.
+9. Perform FFT.
+10. Calculate the channel frequency response.
+11. Apply Zero-Forcing equalization.
+12. Perform QPSK demodulation.
+13. Calculate BER for different SNR values.
+
+Outputs:
+1. OFDM BER with Channel Estimation and Equalization.
+2. Channel Frequency Response.
+
+Important Note:
+This step uses the known channel impulse response to calculate
+the channel frequency response. Therefore, this is a known-channel
+or perfect-channel-response equalization demonstration, rather
+than a true pilot-based channel estimation system.

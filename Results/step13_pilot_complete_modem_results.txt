@@ -1,0 +1,64 @@
+
+===== STEP 13.1: PILOT-BASED MODEM SETUP =====
+FFT Size                 : 64
+Cyclic Prefix Length     : 16
+Data OFDM Symbols       : 1000
+Pilot OFDM Symbols      : 1
+QPSK Modulation Order   : 4
+Test SNR                : 20 dB
+Data Bits               : 128000
+Pilot Symbols           : 64
+Multipath Delays        : 0 2 4 samples
+Multipath Gains         : 1.00 0.50 0.25 
+
+===== STEP 13.2: OFDM FRAME GENERATION =====
+Pilot Samples           : 80
+Data Samples            : 80000
+Total Frame Samples     : 80080
+Samples per OFDM Symbol : 80
+
+===== STEP 13.3: CHANNEL =====
+Channel Type            : Multipath + AWGN
+Path Delays             : 0 2 4 samples
+Path Gains              : 1.00 0.50 0.25 
+Channel SNR             : 20 dB
+Transmitted Samples     : 80080
+Received Samples        : 80080
+
+===== STEP 13.4: PILOT CHANNEL ESTIMATION =====
+Received Pilot Samples : 80
+Pilot CP Removed       : 16 samples
+Estimated Channel Size : 64
+Channel estimated using known pilot.
+
+===== STEP 13.5: DATA EQUALIZATION =====
+Data OFDM Symbols      : 1000
+FFT Size               : 64
+Equalizer              : Zero-Forcing (ZF)
+Channel Used           : Pilot-Based Estimate
+Equalized QPSK Symbols : 64000
+
+===== STEP 13.6: PILOT-BASED BER RESULT =====
+Test SNR       = 20 dB
+Bit Errors     = 0
+Total Bits     = 128000
+BER            = 0.00000000
+
+===== STEP 13.7: PILOT-BASED EVM =====
+Test SNR       = 20 dB
+RMS EVM        = 0.165566
+EVM Percentage = 16.56 %
+
+===== STEP 13.8: PILOT-BASED COMPLETE MODEM BER =====
+SNR =  0 dB   BER = 0.26748437
+SNR =  2 dB   BER = 0.22563281
+SNR =  4 dB   BER = 0.15515625
+SNR =  6 dB   BER = 0.13824219
+SNR =  8 dB   BER = 0.07763281
+SNR = 10 dB   BER = 0.03185156
+SNR = 12 dB   BER = 0.01620312
+SNR = 14 dB   BER = 0.00240625
+SNR = 16 dB   BER = 0.00020312
+SNR = 18 dB   BER = 0.00010156
+SNR = 20 dB   BER = 0.00000000
+>> 

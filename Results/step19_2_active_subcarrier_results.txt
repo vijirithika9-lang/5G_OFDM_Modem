@@ -1,0 +1,23 @@
+
+============================================
+ STEP 19.2: ACTIVE-SUBCARRIER OFDM SYSTEM
+============================================
+
+===== SYSTEM CONFIGURATION =====
+FFT Size                  : 64
+Cyclic Prefix             : 16 samples
+Total Subcarriers         : 64
+Active Subcarriers        : 52
+Unused Subcarriers        : 12
+Modulation                : QPSK
+OFDM Symbols              : 1000
+Test SNR                  : 20 dB
+
+===== BER RESULT =====
+Bit Errors                : 0
+Total Bits               : 104000
+BER                       : 0.00000000
+
+Active-subcarrier OFDM graph generated successfully.
+Constellation graph generated successfully.
+>> 

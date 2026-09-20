@@ -1,0 +1,8 @@
+============================================================
+EVM DATA PREPARATION COMPLETED
+============================================================
+SNR points processed : 11
+
+Output file:
+/MATLAB Drive/5G_OFDM_Modem/Results/python_evm_data.txt
+============================================================

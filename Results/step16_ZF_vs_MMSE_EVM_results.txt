@@ -1,0 +1,76 @@
+
+============================================
+ STEP 16: ZF vs MMSE CONSTELLATION + EVM
+============================================
+FFT Size              : 64
+Cyclic Prefix         : 16 samples
+OFDM Symbols          : 1000
+Modulation            : QPSK
+Test SNR              : 10 dB
+Path Delays           : 0 2 4 samples
+Path Gains            : 1.00 0.50 0.25 
+Total Data Bits       : 128000
+
+Step 16.1 completed successfully.
+
+===== STEP 16.2: COMMON OFDM DATA =====
+Random Seed           : 300
+Data Bits             : 128000
+QPSK Symbols          : 64000
+OFDM Symbols          : 1000
+Samples per OFDM      : 80
+Total Frame Samples   : 80000
+Common OFDM frame generated.
+
+===== STEP 16.3: CHANNEL =====
+Channel Type         : Multipath + AWGN
+Path Delays          : 0 2 4 samples
+Path Gains           : 1.00 0.50 0.25 
+Test SNR             : 10 dB
+Transmitted Samples  : 80000
+Received Samples     : 80000
+Channel and AWGN applied successfully.
+
+===== STEP 16.4: ZF EVM =====
+Equalizer            : Zero-Forcing
+Test SNR             : 10 dB
+RMS EVM              : 0.408629
+EVM Percentage       : 40.86 %
+
+===== STEP 16.5: MMSE EVM =====
+Equalizer            : MMSE
+Test SNR             : 10 dB
+RMS EVM              : 0.371868
+EVM Percentage       : 37.19 %
+
+===== STEP 16.6: EVM COMPARISON =====
+
+Equalizer        RMS EVM        EVM Percentage
+------------------------------------------------
+ZF               0.408629        40.86 %
+MMSE             0.371868        37.19 %
+
+EVM comparison graph generated successfully.
+
+============================================
+       STEP 16: ZF vs MMSE EVM ANALYSIS
+============================================
+Test SNR              : 10 dB
+FFT Size              : 64
+Cyclic Prefix         : 16 samples
+OFDM Symbols          : 1000
+Modulation            : QPSK
+Channel               : Multipath + AWGN
+
+ZF Equalizer
+RMS EVM               : 0.408629
+EVM Percentage        : 40.86 %
+
+MMSE Equalizer
+RMS EVM               : 0.371868
+EVM Percentage        : 37.19 %
+
+============================================
+          STEP 16 COMPLETED
+============================================
+>> 

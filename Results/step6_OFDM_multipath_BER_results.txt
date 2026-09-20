@@ -1,0 +1,15 @@
+===== STEP 6: MULTIPATH CHANNEL =====
+Path delays : 0 2 4 samples
+Path gains  : 1.00 0.50 0.25 
+SNR =  0 dB   Bit Errors = 21650   BER = 0.216569
+SNR =  2 dB   Bit Errors = 17566   BER = 0.175716
+SNR =  4 dB   Bit Errors = 13754   BER = 0.137584
+SNR =  6 dB   Bit Errors = 10155   BER = 0.101583
+SNR =  8 dB   Bit Errors =  7107   BER = 0.071093
+SNR = 10 dB   Bit Errors =  4706   BER = 0.047075
+SNR = 12 dB   Bit Errors =  2788   BER = 0.027889
+SNR = 14 dB   Bit Errors =  1648   BER = 0.016485
+SNR = 16 dB   Bit Errors =   876   BER = 0.008763
+SNR = 18 dB   Bit Errors =   348   BER = 0.003481
+SNR = 20 dB   Bit Errors =    90   BER = 0.000900
+>> 

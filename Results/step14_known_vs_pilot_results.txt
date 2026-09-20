@@ -1,0 +1,117 @@
+
+============================================
+ STEP 14: KNOWN CHANNEL vs PILOT-BASED ZF
+============================================
+FFT Size              : 64
+Cyclic Prefix         : 16 samples
+OFDM Data Symbols     : 1000
+Modulation            : QPSK
+SNR Range             : 0 2 4 6 8 10 12 14 16 18 20 dB
+Multipath Delays      : 0 2 4 samples
+Multipath Gains       : 1.00 0.50 0.25 
+Total Data Bits       : 128000
+
+Step 14.1 completed successfully.
+
+===== STEP 14.2: COMMON DATA GENERATION =====
+Random Seed           : 100
+Generated Data Bits   : 128000
+QPSK Symbols          : 64000
+OFDM Symbols          : 1000
+Samples per OFDM      : 80
+Total Frame Samples   : 80000
+Common data generated for both systems.
+
+===== STEP 14.3: COMMON MULTIPATH CHANNEL =====
+Channel Type         : Multipath
+Path Delays          : 0 2 4 samples
+Path Gains           : 1.00 0.50 0.25 
+Input Samples        : 80000
+Output Samples       : 80000
+Common multipath channel created.
+
+===== STEP 14.4: KNOWN CHANNEL ZF =====
+Equalizer            : Zero-Forcing (ZF)
+Channel Knowledge    : Known / Ideal
+SNR =  0 dB   BER = 0.18868750
+SNR =  2 dB   BER = 0.14164062
+SNR =  4 dB   BER = 0.09670313
+SNR =  6 dB   BER = 0.05845313
+SNR =  8 dB   BER = 0.03184375
+SNR = 10 dB   BER = 0.01303906
+SNR = 12 dB   BER = 0.00349219
+SNR = 14 dB   BER = 0.00062500
+SNR = 16 dB   BER = 0.00004688
+SNR = 18 dB   BER = 0.00000000
+SNR = 20 dB   BER = 0.00000000
+
+===== STEP 14.5: PILOT-BASED ZF =====
+Equalizer            : Zero-Forcing (ZF)
+Channel Knowledge    : Pilot-Based Estimate
+Pilot OFDM Symbols   : 1
+SNR =  0 dB   BER = 0.27482031
+SNR =  2 dB   BER = 0.23051563
+SNR =  4 dB   BER = 0.15209375
+SNR =  6 dB   BER = 0.13061719
+SNR =  8 dB   BER = 0.06921094
+SNR = 10 dB   BER = 0.02644531
+SNR = 12 dB   BER = 0.02002344
+SNR = 14 dB   BER = 0.00430469
+SNR = 16 dB   BER = 0.00154688
+SNR = 18 dB   BER = 0.00001563
+SNR = 20 dB   BER = 0.00000000
+
+===== STEP 14.6: BER COMPARISON =====
+
+ SNR(dB)     Known Channel ZF     Pilot-Based ZF
+---------------------------------------------------
+   0        0.18868750          0.27482031
+   2        0.14164062          0.23051563
+   4        0.09670313          0.15209375
+   6        0.05845313          0.13061719
+   8        0.03184375          0.06921094
+  10        0.01303906          0.02644531
+  12        0.00349219          0.02002344
+  14        0.00062500          0.00430469
+  16        0.00004688          0.00154688
+  18        0.00000000          0.00001563
+  20        0.00000000          0.00000000
+
+============================================
+       STEP 14 PERFORMANCE SUMMARY
+============================================
+FFT Size              : 64
+Cyclic Prefix         : 16 samples
+OFDM Data Symbols     : 1000
+Modulation            : QPSK
+Channel               : Multipath + AWGN
+
+Channel Parameters
+Path Delays           : 0 2 4 samples
+Path Gains            : 1.00 0.50 0.25 
+
+Equalization Methods
+1. Known Channel ZF
+2. Pilot-Based Channel Estimation + ZF
+
+BER Results
+SNR(dB)     Known-ZF        Pilot-ZF
+----------------------------------------
+  0       0.18868750      0.27482031
+  2       0.14164062      0.23051563
+  4       0.09670313      0.15209375
+  6       0.05845313      0.13061719
+  8       0.03184375      0.06921094
+ 10       0.01303906      0.02644531
+ 12       0.00349219      0.02002344
+ 14       0.00062500      0.00430469
+ 16       0.00004688      0.00154688
+ 18       0.00000000      0.00001563
+ 20       0.00000000      0.00000000
+
+============================================
+Step 14 completed successfully.
+============================================
+
+BER comparison graph generated successfully.
+>> 

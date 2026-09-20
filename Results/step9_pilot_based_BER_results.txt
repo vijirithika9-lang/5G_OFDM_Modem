@@ -1,0 +1,30 @@
+
+===== STEP 9.1: PILOT-BASED OFDM FRAME =====
+FFT Size              : 64
+Cyclic Prefix Length  : 16
+Number of Data OFDM Symbols : 781
+Pilot OFDM Symbols    : 1
+Total Transmitted Samples : 62560
+
+===== STEP 9.2: PILOT CHANNEL ESTIMATION =====
+Test SNR = 20 dB
+Pilot transmitted successfully.
+Received pilot extracted successfully.
+Channel frequency response estimated using pilot.
+
+===== STEP 9.3: PILOT-BASED OFDM BER =====
+SNR = 20 dB
+Bit Errors = 0
+BER = 0.000000
+SNR =  0 dB   Bit Errors = 29272   BER = 0.292814
+SNR =  2 dB   Bit Errors = 22285   BER = 0.222921
+SNR =  4 dB   Bit Errors = 19084   BER = 0.190901
+SNR =  6 dB   Bit Errors = 10921   BER = 0.109245
+SNR =  8 dB   Bit Errors =  7898   BER = 0.079005
+SNR = 10 dB   Bit Errors =  3501   BER = 0.035021
+SNR = 12 dB   Bit Errors =  2313   BER = 0.023137
+SNR = 14 dB   Bit Errors =  1183   BER = 0.011834
+SNR = 16 dB   Bit Errors =   100   BER = 0.001000
+SNR = 18 dB   Bit Errors =     0   BER = 0.000000
+SNR = 20 dB   Bit Errors =     0   BER = 0.000000
+>> 

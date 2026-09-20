@@ -1,0 +1,41 @@
+STEP 10 – THREE-SYSTEM OFDM BER COMPARISON
+
+Objective:
+To compare the BER performance of three OFDM receiver
+configurations under a multipath channel.
+
+System 1:
+Multipath channel without equalization.
+
+System 2:
+Multipath channel with Zero-Forcing equalization using the
+known channel frequency response.
+
+System 3:
+Multipath channel with pilot-based channel estimation followed
+by Zero-Forcing equalization.
+
+SNR Range:
+0 to 20 dB
+
+Comparison:
+
+System 1 demonstrates the effect of multipath distortion without
+channel compensation.
+
+System 2 provides an ideal reference because the receiver uses
+the known channel response.
+
+System 3 estimates the channel using a transmitted pilot and
+therefore represents a more practical channel-estimation approach.
+
+Observation:
+BER generally decreases as SNR increases for all three systems.
+
+The pilot-based system can have higher BER than the known-channel
+system because the estimated channel contains noise and estimation
+error.
+
+Conclusion:
+The comparison demonstrates the importance of channel estimation
+and equalization in OFDM communication systems.

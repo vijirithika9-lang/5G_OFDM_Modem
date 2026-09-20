@@ -1,0 +1,90 @@
+
+============================================
+       STEP 17: ADVANCED CHANNEL ESTIMATION
+============================================
+FFT Size              : 64
+Cyclic Prefix         : 16 samples
+Modulation            : QPSK
+Test SNR              : 10 dB
+
+Pilot symbols generated: 64
+Pilot OFDM samples     : 80
+
+Channel Path Delays     : 0 2 4 samples
+Channel Path Gains      : 1.00 0.50 0.25 
+
+===== LS CHANNEL ESTIMATION =====
+Estimation Method      : Least Squares (LS)
+Received Pilot Size    : 64
+Estimated Channel Size : 64
+
+Channel Estimation RMSE : 0.315474
+
+============================================
+       STEP 17.1 COMPLETED
+============================================
+
+===== STEP 17.2: LS RMSE vs SNR =====
+SNR =  0 dB   LS Channel RMSE = 1.171931
+SNR =  2 dB   LS Channel RMSE = 0.859569
+SNR =  4 dB   LS Channel RMSE = 0.602871
+SNR =  6 dB   LS Channel RMSE = 0.586581
+SNR =  8 dB   LS Channel RMSE = 0.459052
+SNR = 10 dB   LS Channel RMSE = 0.354832
+SNR = 12 dB   LS Channel RMSE = 0.277772
+SNR = 14 dB   LS Channel RMSE = 0.251515
+SNR = 16 dB   LS Channel RMSE = 0.185682
+SNR = 18 dB   LS Channel RMSE = 0.143546
+SNR = 20 dB   LS Channel RMSE = 0.110752
+
+LS RMSE vs SNR graph generated successfully.
+
+===== STEP 17.3: LS-BASED DATA EQUALIZATION =====
+
+===== LS-BASED DATA RESULT =====
+Test SNR              : 10 dB
+Equalizer             : Zero-Forcing (ZF)
+Channel Estimation    : Least Squares (LS)
+Bit Errors            : 1991
+Total Bits            : 128000
+BER                   : 0.01555469
+
+LS-based equalization completed successfully.
+
+===== STEP 17.4: KNOWN CHANNEL vs LS CHANNEL =====
+SNR =  0 dB   Known ZF BER = 0.19177344   LS-ZF BER = 0.30659375
+SNR =  2 dB   Known ZF BER = 0.14172656   LS-ZF BER = 0.22757812
+SNR =  4 dB   Known ZF BER = 0.09756250   LS-ZF BER = 0.19426562
+SNR =  6 dB   Known ZF BER = 0.06019531   LS-ZF BER = 0.14578906
+SNR =  8 dB   Known ZF BER = 0.03180469   LS-ZF BER = 0.06981250
+SNR = 10 dB   Known ZF BER = 0.01298437   LS-ZF BER = 0.03482031
+SNR = 12 dB   Known ZF BER = 0.00377344   LS-ZF BER = 0.01901563
+SNR = 14 dB   Known ZF BER = 0.00060937   LS-ZF BER = 0.00943750
+SNR = 16 dB   Known ZF BER = 0.00003906   LS-ZF BER = 0.00079687
+SNR = 18 dB   Known ZF BER = 0.00000000   LS-ZF BER = 0.00003906
+SNR = 20 dB   Known ZF BER = 0.00000000   LS-ZF BER = 0.00000000
+
+Known Channel ZF vs LS-ZF graph generated successfully.
+
+============================================
+      STEP 17: ADVANCED CHANNEL ESTIMATION
+============================================
+FFT Size              : 64
+Cyclic Prefix         : 16 samples
+Modulation            : QPSK
+Channel               : Multipath + AWGN
+Path Delays           : 0 2 4 samples
+
+LS Channel Estimation
+Test SNR              : 10 dB
+Channel RMSE          : 0.315474
+
+LS-Based ZF Receiver
+Bit Errors            : 1991
+Total Bits            : 128000
+BER                   : 0.01555469
+
+============================================
+       STEP 17 COMPLETED SUCCESSFULLY
+============================================
+>> 

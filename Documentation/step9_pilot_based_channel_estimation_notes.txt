@@ -1,0 +1,51 @@
+STEP 9 – PILOT-BASED CHANNEL ESTIMATION
+
+Objective:
+To implement pilot-based channel estimation and Zero-Forcing
+equalization in an OFDM communication system.
+
+OFDM Parameters:
+FFT Size = 64
+Cyclic Prefix = 16
+Pilot OFDM Symbols = 1
+Data OFDM Symbols = 781
+Modulation = QPSK
+SNR Range = 0 to 20 dB
+
+Channel:
+Path Delays = [0 2 4] samples
+Path Gains = [1 0.5 0.25]
+
+Method:
+1. Generate QPSK data.
+2. Generate a known pilot OFDM symbol.
+3. Transmit the pilot and data through a multipath channel.
+4. Add AWGN noise.
+5. Extract the received pilot.
+6. Estimate the channel frequency response from the pilot.
+7. Remove the cyclic prefix from the data.
+8. Perform FFT.
+9. Apply Zero-Forcing equalization using the estimated channel.
+10. Demodulate the equalized QPSK symbols.
+11. Calculate BER for different SNR values.
+
+Results:
+At 20 dB SNR:
+Bit Errors = 0
+BER = 0.000000
+
+At 18 dB SNR:
+Bit Errors = 0
+BER = 0.000000
+
+The BER generally decreases as SNR increases.
+
+Conclusion:
+The simulation demonstrates pilot-based channel estimation and
+channel equalization for an OFDM communication system over a
+multipath channel with AWGN.
+
+Important Note:
+The pilot-based estimator uses one known full-band pilot OFDM
+symbol. This is a simulation-oriented implementation and is not
+intended to represent a complete 5G NR physical-layer standard.
