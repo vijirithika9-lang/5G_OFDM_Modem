@@ -282,6 +282,23 @@ code = fileread(pythonFile);
 pyrun("exec(code)", code=code);
 ```
 
+🧠 Technical Highlights
+
+- Implemented a complete **QPSK-based OFDM transmitter and receiver** using MATLAB.
+- Developed **64-point FFT/IFFT based OFDM processing** with 52 active subcarriers.
+- Implemented **cyclic prefix insertion and removal** for multipath channel protection.
+- Modeled a **3-path multipath channel** with configurable path delays and gains.
+- Added **AWGN noise** and evaluated system performance across 0–20 dB SNR.
+- Implemented **pilot-based Least Squares (LS) channel estimation**.
+- Implemented **Zero-Forcing (ZF) equalization** for channel compensation.
+- Implemented and compared **MMSE-based equalization/channel estimation approaches**.
+- Compared **No Equalization, Known-Channel ZF, and Pilot-LS-ZF** receiver configurations.
+- Evaluated communication performance using **Bit Error Rate (BER)** and **Error Vector Magnitude (EVM)**.
+- Analyzed **QPSK constellation behavior** under different channel and equalization conditions.
+- Implemented **active subcarrier allocation** for an OFDM system.
+- Integrated **MATLAB simulation outputs with Python-based result analysis**.
+- Organized simulation results, figures, analysis scripts, and documentation into a structured GitHub project.
+  
 📚 Learning Outcomes
 
 Through this project, I developed practical understanding of:
